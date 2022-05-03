@@ -3,7 +3,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int a[n],b[n],i,j,sum=0;
+    int a[n],b[n],i,sum=0;
     for(i=0;i<n;i++)
     {
         scanf("%d%d",&a[i],&b[i]);
