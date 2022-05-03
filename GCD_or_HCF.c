@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,t,gcd;
+    int x,y,t,g;
     scanf("%d%d",&x,&y);
-    while(y!=0)
+    while(y>0)
     {
         t=y;
         y=x%y;
         x=t;
     }
-    gcd=x;
-    printf("%d",gcd);
+    g=t;
+    printf("%d",g);
 }
