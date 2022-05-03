@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,sum=0,i;
+    int n,i,f,sum=0;
     scanf("%d",&n);
     for(i=1;i<n;i++)
     {
@@ -10,12 +10,8 @@ int main()
             sum+=i;
         }
     }
-    if(sum>=n)
-    {
-        printf("True");
-    }
+    if(sum>n)
+    printf("True");
     else
-    {
-        printf("False");
-    }
+    printf("False");
 }
